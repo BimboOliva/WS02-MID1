@@ -1,0 +1,102 @@
+html, body{
+	margin: 0;
+	font-family: Britannic Bold;
+	background: #222222;
+}
+header{
+	background: url('img/bg.jpg') no-repeat;
+	background-size: cover;
+	padding: 40px;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-size: 50px;
+	color: #32B531;
+	font-family: elephant ; 
+	text-shadow: 0 0 30px  #32B531;
+}
+header .pic img{
+	border-radius: 175px;
+	width: 300px;
+	border: 24px solid #222222;
+}
+header .pic img:hover{
+	box-shadow: 0 0 1000px #b2e05b;
+}
+header .name img{
+	width: 250px;
+	padding-right: 1px;
+}
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.content p{
+	font-size: 25px;
+	font-family: public serif;
+	color: #fbfbfd;
+	border: 15px ;
+	border-style: groove;
+	border-color: #32B531;
+	background-color: #222222;
+	padding: 16px 30px;
+}
+.content .friend ul{
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.content .friend ul li{
+	font-size: 20px;
+	color: #32B531;
+	text-shadow: 0 0 1px  #fbfbfd;
+	display: inline-grid;
+	padding: 0 15px 15px 15px;
+}
+.content .char ul li{
+	font-size: 30px;
+	font-family: Castellar;
+	color: #fbfbfd;
+}
+.content .friend ul img{
+	border-radius: 175px;
+	width: 180px;
+	padding: 20px;
+	border: 2px solid #64cc4f;
+	transition: .3s;
+	scale: 1;
+}
+.content .friend ul img:hover{
+	box-shadow: 0 0 50px #32B531;
+	scale: 1.1;
+}
+img.big-image{
+	max-width: 100%;
+}
+a{
+	color:  #fbfbfd;
+	text-decoration: none;
+	text-shadow: 0 0 5px #32B531;
+	font-size: 25px;
+}
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background: url('img/bg.jpg') no-repeat;
+	background-size: cover;
+}
+footer ul{
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+footer ul li a{
+	color: #32B531;
+	font-size: 19px;
+	text-shadow: 0 0 7px #222222;
+}
