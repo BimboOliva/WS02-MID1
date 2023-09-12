@@ -55,6 +55,12 @@ header .name img{
 	text-shadow: 0 0 1px  #fbfbfd;
 	display: inline-grid;
 	padding: 0 15px 15px 15px;
+	padding-top: 30px;
+}
+.content .friend ul li b{
+	color:  #fbfbfd;
+	text-shadow: 0 0 5px #32B531;
+	font-size: 25px;
 }
 .content .char ul li{
 	font-size: 30px;
